@@ -1,0 +1,17 @@
+Package: myLinearPackage
+Title: Builds a linear model for covariates.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Amber",
+           family = "Kelly",
+           role = c("aut", "cre"),
+           email = "amberlk@vt.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes a function that creates a linear model in order to graph regressions for each covariate.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
+Imports: GGally
